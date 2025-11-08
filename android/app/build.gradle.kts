@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "io.flutter.examples.hello_world"
+    namespace = "com.deferit.app"
     compileSdk = flutter.compileSdkVersion
 
     // Flutter's CI installs the NDK at a non-standard path.
@@ -26,7 +26,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "io.flutter.examples.hello_world"
+        applicationId = "com.deferit.app"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
