@@ -4,6 +4,7 @@
 
 plugins {
     id("com.android.application")
+    kotlin("android")
     id("dev.flutter.flutter-gradle-plugin")
 }
 
