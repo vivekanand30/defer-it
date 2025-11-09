@@ -7,7 +7,7 @@
         android:label="@string/app_name"
         android:icon="@mipmap/ic_launcher">
         <activity
-            android:name="io.flutter.embedding.android.FlutterActivity"
+            android:name="com.deferit.app.MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
