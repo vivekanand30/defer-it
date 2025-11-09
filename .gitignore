@@ -1,0 +1,25 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+android/.gradle/
+android/app/key.properties
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+macos/Pods/
+linux/build/
+windows/build/
+web/.dart_tool/
+*.iml
+*.lock
+*.log
+*.DS_Store
+coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool
+.idea/
+.vscode/

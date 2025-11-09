@@ -1,20 +1,35 @@
-name: hello_world
+name: defer_it
+description: Offline-first reminder inbox for shared content.
+publish_to: 'none'
+version: 1.0.0+1
 
 environment:
-  sdk: ^3.8.0-0
+  sdk: '>=3.3.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-
+  flutter_local_notifications: ^17.1.2
+  workmanager: ^0.7.0
+  drift: ^2.13.0
+  path_provider: ^2.1.2
+  getwidget: ^2.0.6
+  flutter_secure_storage: ^9.1.0
+  riverpod: ^2.5.1
+  flutter_riverpod: ^2.5.1
+  share_plus: ^7.2.1
+  url_launcher: ^6.3.0
+  intl: ^0.19.0
+  collection: ^1.18.0
 
 dev_dependencies:
-  flutter_driver:
-    sdk: flutter
   flutter_test:
     sdk: flutter
-  test: any
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.9
+  drift_dev: ^2.13.2
 
-  webdriver: any
-
-# PUBSPEC CHECKSUM: mut18q
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
